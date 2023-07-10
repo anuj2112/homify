@@ -1,0 +1,48 @@
+.dateTimeRangeStyles
+{
+    width: 500px;
+    display: inline-block;
+}
+.searchComponentStyle{
+ 
+    background-color:  #f0f6f5;
+    padding: 30px 30px 30px 30px;
+    width: 1000px;
+    position: relative;
+   border-radius: 15px;
+   box-shadow: 3px 3px 5px 6px #4f4e4e;
+
+}
+.buttonStyle{
+    background-color: #00917C;
+    width: 280px;
+    height: 60px;
+    border-radius: 12px;
+    border-color: #00917C;
+    color: antiquewhite;
+    font-size: large;
+}
+.parentDiv{
+    padding-left: 250px;
+   margin-top: -60px;
+   animation: 2s anim-lineUp ease-out ;
+   color: #00917c;
+   
+}
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }

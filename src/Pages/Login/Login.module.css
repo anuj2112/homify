@@ -1,0 +1,16 @@
+.page{
+    
+  background-image: linear-gradient(to bottom right, #00917c, white);
+
+height: 790px;
+}
+.loginCard{
+    position: relative;
+    top : 200px;
+    left: 250px;
+    width: 400px;
+    height : 500px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    display: inline-block;
+}

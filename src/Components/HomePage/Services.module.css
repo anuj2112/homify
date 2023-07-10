@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+.serviceTileParent{
+    padding: 50px 30px 30px 30px;
+    align-content: space-around;
+    
+    position: relative;
+    left: 150px;
+    /* margin : 0.1em; */
+}
+.serviceTile{
+    width: 350px;
+    height: 360px;
+    display: inline-block;
+    margin-right: 40px;
+    border-radius: 14px;box-shadow:2px 2px 3px 4px #c1c1c1;
+    position: relative;
+    font-family: 'Work Sans';
+    font: 300;
+    text-justify: auto;
+    text-align: justify;
+    padding: 50px 10px 10px 10px;
+    background-color: white;
+    color: rgb(74, 98, 103);
+    
+}
+.iconsStyle
+{
+    left:150px;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    
+}
+.paraText
+{
+    height: 50px;
+    width: 280px;
+    position: relative;
+    left: 30px;
+}
+.aboutHotelParent{
+    padding-top: 100px;
+    width: max-content;
+}
+.rectangleStyle
+{
+    background-color: #00917C;
+    position: absolute;
+    width: 670px;
+    height: 790px;
+
+    display: inline-block;
+}
+.aboutImage{
+    background-image: url('../../../Resources/HomePageImages/about_1.jpg.webp');
+    background-color: black;
+    position: relative;
+    height: 500px;
+    z-index: 9;
+    width: 800px;
+    
+    -webkit-transform: scale(0.9);
+    top: 140px;
+}
+.aboutText{
+    float: right;
+    top : -400px;
+    right: -300px;
+    position: relative;
+    font-family: "Work Sans";
+}
+.aboutInfo
+{
+    float: right;
+    top : -290px;
+    right: -790px;
+    position: relative;
+    font-family: "Work Sans";
+    overflow: visible;
+    width: 600px;
+    color: gray;
+    text-align: justify;
+}
